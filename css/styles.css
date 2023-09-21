@@ -1,0 +1,134 @@
+/* 
+Author: Damien Aldridge
+Date: 09/20/2023
+File name: styles.css
+*/
+
+/* CSS Reset */
+body, header, nav, main, footer, div, h1, h2, h3, img {
+    margin: 0;
+    padding: 0;
+    border: 0;
+}
+
+/* Style rule for font */
+p, a, h1, h2, h3 {
+    font-family: 'DM Serif Display', serif;
+}
+
+/* Style rules for body and header */
+body {
+    background-color: #8ecaed;
+}
+
+header {
+    width: 25%;
+    float: left;
+}
+
+header h1, h3 {
+    padding: 1%
+}
+
+header img {
+    /* float: left; */
+    max-width: 70%;
+}
+
+header h3 {
+    padding-bottom: 1em;
+}
+
+/* Style rules for navigation */
+nav {
+    width: 70%;
+    float: right;
+    margin: 5em 2em 0 0;
+}
+
+nav ul {
+    list-style-type: none;
+    margin: 0;
+    text-align: right;
+}
+
+nav li {
+    display: inline-block;
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+nav li a {
+    display: block;
+    text-align: center;
+    text-decoration: none;
+    padding: 0.5em 1em;
+    color: #fff;
+}
+
+nav li a:active {
+    color: #20adff;
+}
+
+main {
+    clear: both;
+    padding: 2%;
+    background-color: #fff;
+}
+
+#welcome {
+    text-align: center;
+}
+
+#welcome p {
+    padding-left: 0;
+}
+
+/* Style rules for about page */
+#plot, #mechanics, #name {
+    width: 29%;
+    float: left;
+    margin: 0 2%;
+}
+
+/* Style rules for character pages */
+.placeholder {
+    border: 1px solid #000;
+}
+
+.character-info {
+    float: left;
+}
+
+.character-info h1, p {
+    font-size: 1.5em;
+    padding-left: 2%;
+}
+
+.character-info p {
+    margin: 0.5% 0 2% 0.5%;
+}
+
+.left-div {
+    width: 40%;
+}
+
+.right-div {
+    width: 50%;
+}
+
+.clear {
+    clear:left;
+}
+
+#emphasis {
+    font-style: italic;
+}
+
+/* Style rules for footer */
+footer {
+    clear: both;
+    padding-top: 3.5%;
+    text-align: center;
+    font-size: 0.7em;
+}
